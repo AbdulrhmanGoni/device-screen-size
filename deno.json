@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read --watch=src src/main.ts"
+  },
+  "deploy": {
+    "project": "93739c66-b3b1-4bce-8548-ed9388e2426a",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "src/main.ts"
+  }
+}
